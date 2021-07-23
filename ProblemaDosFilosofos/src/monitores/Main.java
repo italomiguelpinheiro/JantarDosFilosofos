@@ -15,11 +15,11 @@ public class Main {
 
         Arrays.fill(estado, Estado.PENSANDO.getValue());
 
-        filosofos[0] = new Filosofo("Pondé", 0);
-        filosofos[1] = new Filosofo("Olavo de Carvalho", 1);
-        filosofos[2] = new Filosofo("Clóvis de Barros", 2);
-        filosofos[3] = new Filosofo("Cortella", 3);
-        filosofos[4] = new Filosofo("Leandro Karnal", 4);
+        filosofos[0] = new Filosofo("Confucio", 0);
+        filosofos[1] = new Filosofo("Nietzsche", 1);
+        filosofos[2] = new Filosofo("Hegel", 2);
+        filosofos[3] = new Filosofo("Montesquieu", 3);
+        filosofos[4] = new Filosofo("Wittgenstein", 4);
 
         for (Filosofo filosofo : filosofos) {
             filosofo.start();
